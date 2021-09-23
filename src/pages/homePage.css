@@ -1,0 +1,339 @@
+.home {
+  padding: 10px 61px;
+  display: flex;
+  position: relative;
+}
+
+.intro-overlay {
+  top: 0%;
+  left: 0;
+  right: 0;
+  bottom: 0%;
+  background-color: black;
+  z-index: 12;
+}
+
+.section__left {
+  flex: 6;
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section__left__title {
+  position: relative;
+  height: 40%;
+  max-height: 460px;
+
+  bottom: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.section__title {
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+  left: 12%;
+}
+
+.section__secondary {
+  color: #cbcbcb;
+  font-size: 30px;
+}
+
+.section__main__title {
+  font-size: 50px;
+  color: white;
+}
+
+.section__svg svg {
+  width: 100%;
+}
+
+.section__button__container {
+  width: 100%;
+  position: absolute;
+  height: 10%;
+  bottom: 35%;
+  align-items: center;
+  padding: 0 80px;
+}
+
+.section__button {
+  cursor: pointer;
+  width: 200px;
+  height: 55px;
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  font-family: inherit;
+  font-size: 20px;
+  transition: all ease-in-out 300ms;
+  transform-origin: 50% 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.section__button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0%;
+  left: 100%;
+  right: 0;
+  background-color: #6c63ff;
+  transition: all ease-in-out 300ms;
+  z-index: -1;
+  border: transparent;
+}
+
+.section__button:hover {
+  transform: scale(0.93);
+  color: white;
+}
+
+.section__button:hover::after {
+  left: 0%;
+}
+
+.section__right {
+  position: relative;
+  flex: 6;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section__right__svg {
+  width: 500px;
+  height: 500px;
+}
+
+.section__right__svg img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.section__mouse {
+  display: flex;
+  height: 70px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 20%;
+  left: 48%;
+  cursor: pointer;
+  animation: scroll infinite ease-in-out 1s alternate;
+}
+
+.section__mouse img {
+  transform: rotate(180deg);
+}
+
+@keyframes scroll {
+  0% {
+    bottom: 20%;
+  }
+  100% {
+    bottom: 15%;
+  }
+}
+
+.section__scroll {
+  font-size: 10px;
+  color: white;
+}
+
+.ityped-cursor {
+  animation: cursor 0.9s alternate infinite;
+}
+
+@keyframes cursor {
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.section__secondary span {
+  color: #6c63ff;
+}
+
+@media only screen and (max-width: 1340px) {
+  .section__left {
+    flex: 11;
+  }
+
+  .section__secondary {
+    font-size: 20px;
+  }
+
+  .section__main__title {
+    font-size: 40px;
+  }
+
+  .section__right__svg {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .home {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .section__left {
+    justify-content: center;
+    align-items: center;
+    flex: 6;
+  }
+  .section__left__title {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+  }
+
+  .section__svg svg {
+    position: absolute;
+    bottom: -16%;
+    left: 0;
+    width: 300px;
+  }
+
+  .section__title {
+    width: 100%;
+    display: flex;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .section__secondary {
+    font-size: 30px;
+  }
+
+  .section__main__title {
+    font-size: 50px;
+  }
+
+  .section__button__container {
+    padding: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    bottom: -2%;
+    left: 11%;
+  }
+
+  .section__right__svg {
+    height: 300px;
+  }
+
+  .section__mouse {
+    width: 110px;
+    left: 10%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .App section {
+    top: 0; 
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .section__title {
+    width: 100%;
+    bottom: 11%;
+    right: 2%;
+  }
+
+  .section__secondary {
+    font-size: 17px;
+  }
+
+  .section__main__title {
+    font-size: 32px;
+  }
+
+  .section__svg svg {
+    bottom: -10%;
+    left: -6%;
+    width: 250px;
+  }
+
+  .section__button__container {
+    height: 90px;
+  }
+
+  .section__button {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+  }
+
+  .section__right__svg img {
+    width: 180px;
+  }
+
+  .section__mouse {
+    left: 60%;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .App section {
+    overflow-x: hidden;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .section__secondary {
+    font-size: 13px;
+  }
+
+  .section__main__title {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .section__secondary {
+    font-size: 10px;
+  }
+
+  .section__main__title {
+    font-size: 20px;
+  }
+
+  .section__svg svg {
+    bottom: -4%;
+    left: -1%;
+    width: 150px;
+  }
+
+  .section__button {
+    font-size: 10px;
+    width: 100px;
+    height: 30px;
+  }
+
+  .section__right__svg img {
+    width: 150px;
+  }
+}

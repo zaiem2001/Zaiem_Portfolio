@@ -1,0 +1,263 @@
+.projects {
+  display: flex;
+  position: relative;
+  align-items: center;
+  overflow: hidden;
+}
+
+.project__left {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 50vh;
+}
+
+.project__intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.project__intro img {
+  width: 50%;
+  object-fit: cover;
+
+  filter: drop-shadow(1px 1px 1px #414141);
+}
+
+.project__title {
+  color: white;
+  letter-spacing: 3px;
+  font-size: 20px;
+  position: relative;
+  display: flex;
+}
+
+.project__title span {
+  position: absolute;
+  bottom: 0;
+  right: -26%;
+  top: -40%;
+}
+
+.project__divider {
+  position: absolute;
+  right: 19%;
+}
+
+.project__right {
+  flex: 10;
+  height: 100%;
+}
+
+.project__container {
+  padding: 35px 20px;
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project__card {
+  width: 40%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #171717;
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.4);
+  margin: 15px;
+
+  /* background-color: #36096d;
+  background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%); */
+}
+
+.card__title {
+  width: 100%;
+  height: 25%;
+  letter-spacing: 2px;
+  font-size: 14px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project__image {
+  margin: 9px 0 0 0;
+  width: 100%;
+  cursor: pointer;
+  overflow: hidden;
+  position: absolute;
+  bottom: -2%;
+}
+.project__image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.backdrop {
+  position: absolute;
+  top: 0;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  border-radius: 20px;
+  transition: all ease-in-out 200ms;
+
+  backdrop-filter: blur(4px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.backdrop span {
+  color: #fff;
+  letter-spacing: 2px;
+  margin: 15px 0;
+  font-size: 15px;
+  opacity: 0;
+  transition: all ease-in-out 200ms;
+}
+
+.backdrop div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  opacity: 0;
+  transition: all ease-in-out 200ms;
+}
+
+.backdrop div a {
+  color: white;
+  font-size: 18px;
+  padding: 5px 9px;
+  border-radius: 5px;
+  transition: all ease-in-out 200ms;
+}
+
+.backdrop div a:hover {
+  background-color: #6c63ff;
+  color: black;
+}
+
+.project__card:hover .backdrop {
+  bottom: 0;
+}
+
+.project__card:hover .backdrop span,
+.project__card:hover .backdrop div {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 1030px) {
+  .projects {
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+
+  .project__left {
+    width: 100%;
+  }
+
+  .project__intro {
+    width: 50%;
+    justify-content: flex-start;
+    padding: 10px 0;
+  }
+
+  .project__intro img {
+    width: 25%;
+  }
+
+  .project__title {
+    letter-spacing: 1px;
+    font-size: 16px;
+  }
+
+  .project__title span {
+    right: -45%;
+    top: -75%;
+  }
+
+  .project__divider {
+    transform: rotate(90deg);
+    right: 50%;
+    top: -40%;
+  }
+
+  .project__container {
+    padding: 0;
+  }
+
+  .project__card {
+    width: 45%;
+    height: 45%;
+    margin: 13px;
+    margin-top: 3px;
+  }
+
+  .card__title {
+    letter-spacing: 1px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .projects {
+    height: auto !important;
+    overflow: hidden;
+  }
+
+  .project__left {
+    height: 150px;
+    max-height: 200px;
+  }
+
+  .project__intro {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project__image img {
+    min-width: 100%;
+    max-height: 255px;
+    min-height: 200px;
+    max-width: 420px;
+  }
+
+  .project__divider {
+    display: none;
+  }
+
+  .project__container {
+    height: auto;
+  }
+
+  .project__title {
+    font-size: 18px;
+  }
+
+  .project__title span {
+    display: none;
+  }
+
+  .project__card {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+  }
+}

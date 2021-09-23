@@ -1,13 +1,94 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Rubik Mono One", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+
+  perspective: 1000px;
+  background-color: #171717;
+  transition: all ease-in-out 300ms;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.App section {
+  width: 100%;
+  height: calc(100vh - 90px);
+  position: relative;
+  top: 90px;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+::selection {
+  background-color: #6c63ff;
+  color: #212121;
+}
+
+::-webkit-scrollbar {
+  background-color: #273036;
+  cursor: pointer;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6c63ff;
+  border-radius: 20px;
+}
+
+.main__layer {
+  position: fixed;
+  z-index: -99;
+  top: 0;
+  bottom: -12vh;
+  left: 0;
+  right: 0;
+  background-color: #171717;
+  transition: all ease-in-out 300ms;
+  overflow-x: hidden;
+  /* display: none; */
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1340px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .section__right__svg {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .main__layer {
+    display: none;
+  }
+
+  .App section {
+    overflow-x: hidden;
+  }
 }
