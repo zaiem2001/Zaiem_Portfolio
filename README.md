@@ -1,4 +1,4 @@
-# Portfolio made using React and Gsap, Framer Motion for animations.
+## Portfolio made using React and Gsap, Framer Motion for animations.
 
 packages used :-
   gsap
