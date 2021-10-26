@@ -219,8 +219,9 @@
 
 @media only screen and (max-width: 750px) {
   .projects {
+    min-height: 100vh;
+    
     height: auto !important;
-    overflow: hidden;
   }
 
   .project__left {
@@ -248,6 +249,13 @@
 
   .project__container {
     height: auto;
+    min-height: 100vh;
+  }
+
+  .project__right {
+    height: auto;
+    min-height: 100vh;
+
   }
 
   .project__title {
