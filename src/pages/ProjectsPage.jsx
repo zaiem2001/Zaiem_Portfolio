@@ -43,7 +43,7 @@ const ProjectPage = () => {
   }, [tl]);
 
   return (
-    <section className="projects">
+    <div className="projects">
       <div className="project__left">
         <div className="project__intro">
           <img src="/assets/Zaiem-portfolio/laptop.svg" alt="projects" />
@@ -103,7 +103,7 @@ const ProjectPage = () => {
           ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

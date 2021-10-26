@@ -2,7 +2,9 @@
   display: flex;
   position: relative;
   align-items: center;
-  overflow: hidden;
+  /* overflow: hidden; */
+  height: 100vh;
+  padding: 20px;
 }
 
 .project__left {
@@ -12,6 +14,7 @@
   justify-content: center;
   position: relative;
   height: 50vh;
+  transform: translateY(10%);
 }
 
 .project__intro {
@@ -53,6 +56,7 @@
 .project__right {
   flex: 10;
   height: 100%;
+  transform: translateY(10%);
 }
 
 .project__container {
