@@ -1,5 +1,19 @@
 const projects = [
   {
+    id: "p4",
+    title: "Social Media App",
+    imgs: [
+      "/assets/projects/profilePage.png",
+      "/assets/projects/homePage.png",
+      "/assets/projects/updatePage.png",
+      "/assets/projects/followers.png",
+      "/assets/projects/login.png",
+      "/assets/projects/comments.png",
+    ],
+    link: "https://zsocialapp.herokuapp.com",
+    git: "https://github.com/zaiem2001/social-media-app",
+  },
+  {
     id: "p1",
     title: "Ecommerce shopping app",
     imgs: [
@@ -29,20 +43,6 @@ const projects = [
     ],
     link: "https://zaiem2001.github.io/portfolio-react-test/",
     git: "https://github.com/zaiem2001/portfolio-react-test",
-  },
-  {
-    id: "p4",
-    title: "Social Media App",
-    imgs: [
-      "/assets/projects/profilePage.png",
-      "/assets/projects/homePage.png",
-      "/assets/projects/updatePage.png",
-      "/assets/projects/followers.png",
-      "/assets/projects/login.png",
-      "/assets/projects/comments.png",
-    ],
-    link: "#",
-    git: "https://github.com/zaiem2001/social-media-app",
   },
 ];
 

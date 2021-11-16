@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 import { useLocation } from "react-router";
 
 import { Link } from "react-router-dom";
-import Resume from "../ZAIEM_RESUME.pdf";
+import Resume from "../Zaiem__Resume.pdf";
 
 import "./header.css";
 
@@ -120,7 +120,7 @@ const Header = () => {
         </div>
 
         <div className="header__download">
-          <a href={Resume} target="_blank">
+          <a href={Resume} target="_blank" rel="noreferrer">
             <button className="header__button" type="button">
               {" "}
               Download CV{" "}

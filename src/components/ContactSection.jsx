@@ -20,9 +20,9 @@ const links = [
   },
   {
     id: "l3",
-    title: "facebook",
-    href: "https://www.facebook.com/zaiem.munshi/",
-    img: "/assets/Zaiem-portfolio/facebook.png",
+    title: "linkedIn",
+    href: "https://www.linkedin.com/in/zaiem-munshi/",
+    img: "/assets/Zaiem-portfolio/LI-In-Bug.png",
   },
 ];
 
