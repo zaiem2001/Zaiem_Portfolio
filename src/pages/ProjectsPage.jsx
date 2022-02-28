@@ -95,8 +95,12 @@ const ProjectPage = () => {
               <div className="backdrop">
                 <span>links</span>
                 <div className="card__links">
-                  <a href={project.git}>github</a>
-                  <a href={project.link}>website</a>
+                  <a href={project.git} target="_blank" rel="noreferrer">
+                    github
+                  </a>
+                  <a href={project.link} target="_blank" rel="noreferrer">
+                    website
+                  </a>
                 </div>
               </div>
             </div>
