@@ -10,7 +10,7 @@ const projects = [
       "/assets/projects/login.png",
       "/assets/projects/comments.png",
     ],
-    link: "https://zsocialapp.herokuapp.com",
+    link: "https://zaiem-social.herokuapp.com/",
     git: "https://github.com/zaiem2001/social-media-app",
   },
   {
@@ -23,7 +23,7 @@ const projects = [
       "/assets/projects/home.png",
       "/assets/projects/cart.png",
     ],
-    link: "https://zshopapp.herokuapp.com/",
+    link: "https://zaiemshop.herokuapp.com/",
     git: "https://github.com/zaiem2001/MERN-stack-Shop-App",
   },
   {
