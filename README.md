@@ -1,5 +1,5 @@
 # Link to the website :
-  ### https://zaiem.herokuapp.com/
+  ### https://zaiem-portfolio.netlify.app/
 
 ## Portfolio made using React and Gsap, Framer Motion for animations.
 
