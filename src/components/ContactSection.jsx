@@ -22,7 +22,7 @@ const links = [
     id: "l3",
     title: "linkedIn",
     href: "https://www.linkedin.com/in/zaiem-munshi/",
-    img: "/assets/Zaiem-portfolio/LI-In-Bug.png",
+    img: "/assets/Zaiem-portfolio/linkedin.png",
   },
 ];
 
@@ -117,6 +117,8 @@ const ContactSection = () => {
         <motion.a
           key={link.id}
           href={link.href}
+          target="_blank"
+          rel="noreferrer"
           initial={{
             z: inView ? "-80vw" : 0,
             scale: inView ? 0 : 1,

@@ -83,7 +83,7 @@
   justify-content: center;
   padding: 30px 20px;
   width: 150px;
-  height: 170px;
+  height: 140px;
   background-color: #273036;
   border-radius: 10px;
   margin: 8px;
@@ -92,42 +92,24 @@
   position: relative;
 }
 
-.skills__card::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 100%;
-  left: 0;
-  right: 0;
-  border-radius: 10px;
-  background-color: rgb(218, 215, 221);
-  z-index: -1;
-  transition: all ease-in-out 200ms;
-}
-
 .skills__card p {
   margin-top: 12px;
   color: white;
   font-size: 15px;
-  transition: all ease-in-out 200ms;
 }
 
 .skills__card:hover p {
-  color: black;
+  color: #000;
 }
 
 .skills__card:hover {
-  transform: scale(0.95);
-}
-
-.skills__card:hover::after {
-  bottom: 0;
+  background-color: #fff;
 }
 
 .skills__card img {
   width: 100%;
-  min-width: 90px;
-  max-width: 90px;
+  min-width: 40px;
+  max-width: 60px;
   object-fit: cover;
 }
 

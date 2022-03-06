@@ -1,0 +1,157 @@
+.experience {
+  width: 100vw;
+  position: relative;
+  top: 90px;
+  padding: 20px;
+  color: #6c63ff;
+}
+
+.experience-wrapper {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #6c63ff;
+  border-top: 1px solid #6c63ff;
+  padding: 20px;
+  margin-bottom: 12px;
+  /* border-radius: 10px; */
+}
+
+.company-top {
+  display: flex;
+  color: lightgreen;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.company-name {
+  font-family: "Rubik Mono One", sans-serif;
+  font-size: 21px;
+  color: #6c63ff;
+  letter-spacing: 2px;
+}
+
+a {
+  color: aqua;
+}
+
+.img-container {
+  width: 150px;
+  margin-right: 20px;
+}
+
+.img-container img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.company-top div:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 15px;
+}
+
+.company-bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-bottom div {
+  margin-bottom: 15px;
+}
+
+.value {
+  color: lightgreen;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.key {
+  color: #6c63ff;
+}
+
+.stack-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.company-stack-color {
+  padding: 14px;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: black;
+  color: #0f3460;
+}
+
+.company-stack-color:hover {
+  color: white;
+}
+
+.btn {
+  width: 20%;
+  margin: auto;
+  padding: 10px;
+  border: none;
+  font-size: 17px;
+  color: cornflowerblue;
+  cursor: pointer;
+  font-family: inherit;
+  background-color: #0f3460;
+  transition: all ease-in-out 200ms;
+}
+
+.btn:hover {
+  transform: scale(0.95);
+  background-color: #6c63ff;
+  color: #000;
+}
+
+.stackUsed {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.desc {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.stackUsed p {
+  margin-right: 5px;
+  margin-bottom: 2px;
+}
+
+.modal-header {
+  position: relative;
+  /* padding: 10px; */
+}
+
+.modal-close {
+  /* flex: 1; */
+  position: absolute;
+  right: 10px;
+}
+
+.modal-title {
+  flex: 12;
+  text-align: center;
+  color: #0f3460;
+}

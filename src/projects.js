@@ -46,4 +46,46 @@ const projects = [
   },
 ];
 
+export const companies = [
+  {
+    name: "GUVI Geek Networks",
+    img: "/assets/guvi.jpg",
+    location: "Chennai",
+    description: `GUVI (Grab Your Vernacular Imprint) Geek Network Private Limited is an Online Learning Platform incubated by IITM and IIM-A, supported by Google Launchpad & Jio Gennext.
+    What sets us apart is the fact that we offer online learning in a plethora of different vernacular languages along with English. With more than 1.8 lakh users currently learning from our platform, GUVI continues to grow at a tremendous rate. Visit www.guvi.in now.`,
+    website: "https://www.guvi.in/",
+    role: "Software Developer Intern",
+    startDate: "01-03-2022",
+    endDate: "04-03-2022",
+    workDesc: `Implemented Various use-cases for the company's main website,
+               Worked on various events,
+               Solved student queries in MERN Stack,
+               Tasks evaluation.
+               `,
+
+    usecases: [
+      "Hackathon (with Email)",
+      "Capstone (with Email)",
+      "Students Leave Applications",
+      "MockInterview",
+      "Batch History",
+      "Various Filters",
+      "Interviews, Applications and Requirements",
+      "Admin Dashboard",
+      "Bulk Mailer",
+      "All Students data in Excel Report"
+    ],
+
+    stackUsed: [
+      "React",
+      "MongoDB",
+      "NodeJS (Express)",
+      "Redis",
+      "AWS",
+      "SocketIO",
+      "Github",
+    ],
+  },
+];
+
 export default projects;

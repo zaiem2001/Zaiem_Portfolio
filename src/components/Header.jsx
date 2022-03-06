@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 import { useLocation } from "react-router";
 
 import { Link } from "react-router-dom";
-import Resume from "../Zaiem__Resume.pdf";
+import Resume from "../Zaiem_R.pdf";
 
 import "./header.css";
 
@@ -110,6 +110,10 @@ const Header = () => {
             <li className="header__link" onClick={handleClick}>
               {" "}
               <Link to="/projects"> projects</Link>
+            </li>
+            <li className="header__link" onClick={handleClick}>
+              {" "}
+              <Link to="/experience">Experience</Link>
             </li>
             {isHomePage && (
               <li className="header__link" onClick={handleClick}>

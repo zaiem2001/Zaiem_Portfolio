@@ -50,6 +50,11 @@ const skills = [
     title: "next js",
     img: "/assets/Zaiem-portfolio/next.png",
   },
+  {
+    id: "s11",
+    title: "Redis",
+    img: "/assets/Zaiem-portfolio/redis.png",
+  },
 ];
 
 export default skills;
