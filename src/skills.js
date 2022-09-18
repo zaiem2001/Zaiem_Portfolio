@@ -1,19 +1,34 @@
 const skills = [
-  {
-    id: "s1",
-    title: "html",
-    img: "/assets/Zaiem-portfolio/html.png",
-  },
+  // {
+  //   id: "s1",
+  //   title: "html",
+  //   img: "/assets/Zaiem-portfolio/html.png",
+  // },
 
-  {
-    id: "s2",
-    title: "css",
-    img: "/assets/Zaiem-portfolio/css-3.png",
-  },
+  // {
+  //   id: "s2",
+  //   title: "css",
+  //   img: "/assets/Zaiem-portfolio/css-3.png",
+  // },
   {
     id: "s3",
     title: "javascript",
     img: "/assets/Zaiem-portfolio/javascript.png",
+  },
+  {
+    id: "s1",
+    title: "GraphQL",
+    img: "/assets/Zaiem-portfolio/GraphQL.png",
+  },
+  {
+    id: "s2",
+    title: "Apollo",
+    img: "/assets/Zaiem-portfolio/apollo.png",
+  },
+  {
+    id: "typescript",
+    title: "Typescript",
+    img: "/assets/Zaiem-portfolio/typescript.png",
   },
   {
     id: "s4",

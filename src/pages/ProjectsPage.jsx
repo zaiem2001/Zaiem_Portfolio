@@ -28,7 +28,7 @@ const ProjectPage = () => {
         ".project__container .project__card",
         1.7,
         {
-          z: "100vw",
+          x: "-10vw",
           opacity: 0,
           ease: "expo.out",
           stagger: {
@@ -88,12 +88,15 @@ const ProjectPage = () => {
         <div className="project__container">
           {projects.map((project) => (
             <div className="project__card" key={project.id}>
-              <div className="card__title">{project.title}</div>
-              <div className="project__image">
-                <img src={project.imgs[0]} alt={project.title} />
+              <div className="card__left">
+                <div className="project__image">
+                  <img src={project.imgs[0]} alt={project.title} />
+                </div>
               </div>
-              <div className="backdrop">
-                <span>links</span>
+
+              <div className="card__right">
+                <div className="card__title">{project.title}</div>
+
                 <div className="card__links">
                   <a href={project.git} target="_blank" rel="noreferrer">
                     github

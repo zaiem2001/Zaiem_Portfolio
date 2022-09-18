@@ -1,0 +1,64 @@
+.experience__details {
+  width: 100vw;
+  position: relative;
+  top: 90px;
+  padding: 20px;
+  color: #6c63ff;
+}
+
+.experience__details-wrapper {
+  width: 100%;
+  padding: 12px;
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.details {
+  width: 85%;
+  padding: 15px;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+}
+
+.details__left {
+  width: 100%;
+}
+
+.img__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.img__container img {
+  width: 12%;
+  object-fit: cover;
+}
+
+.company__role {
+  margin: 14px 0;
+  font-size: 18px;
+}
+
+.c__description {
+  font-size: 14px;
+}
+
+.c__use-cases {
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.details__right .key {
+  margin-bottom: 15px;
+  width: auto;
+}
+
+.details__right .value {
+  margin-bottom: 20px;
+}
