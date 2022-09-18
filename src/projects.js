@@ -69,7 +69,7 @@ export const companies = [
     description: `Adrixus Tech Pvt Ltd is a leading IT company and giving varous services to the clients. For example, Web development, Blockchain development, Mobile development, etc. We have a team of highly skilled and experienced IT professionals who are dedicated to providing the best IT solutions to our clients.`,
     website: "https://spreadd.io",
     role: "MERN Stack Developer",
-    startDate: "06-01-2022", //mm-dd-yyyy
+    startDate: "07-01-2022", //mm-dd-yyyy
     endDate: "",
     workDesc: `Working on some client's projects, then started working on the company's main website. 
     Worked with Apollo and graphQL with microservices, react-relay and added many use-cases.
