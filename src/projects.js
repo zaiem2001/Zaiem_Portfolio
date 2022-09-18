@@ -1,5 +1,19 @@
 const projects = [
   {
+    id: "p6",
+    title: "Blog Application (Typescript and GraphQL)",
+    imgs: [
+      "/assets/projects/zblog-home.png",
+      "/assets/projects/homePage.png",
+      "/assets/projects/updatePage.png",
+      "/assets/projects/followers.png",
+      "/assets/projects/login.png",
+      "/assets/projects/comments.png",
+    ],
+    link: "https://zblog-frontend.netlify.app/",
+    git: "https://github.com/zaiem2001/zblog-frontend",
+  },
+  {
     id: "p4",
     title: "Social Media App",
     imgs: [
@@ -48,6 +62,38 @@ const projects = [
 
 export const companies = [
   {
+    _id: 2,
+    name: "Adrixus Tech Pvt Ltd",
+    img: "/assets/Adrixus.png",
+    location: "Vadodara",
+    description: `Adrixus Tech Pvt Ltd is a leading IT company and giving varous services to the clients. For example, Web development, Blockchain development, Mobile development, etc. We have a team of highly skilled and experienced IT professionals who are dedicated to providing the best IT solutions to our clients.`,
+    website: "https://spreadd.io",
+    role: "MERN Stack Developer",
+    startDate: "06-01-2022", //mm-dd-yyyy
+    endDate: "",
+    workDesc: `Working on some client's projects, then started working on the company's main website. 
+    Worked with Apollo and graphQL with microservices, react-relay and added many use-cases.
+               `,
+
+    usecases: [
+      "Apollo Federation",
+      "Upgraded whole backend schema",
+      "Working on Backend, Frontend, GraphQL with Apollo",
+      "React-relay",
+    ],
+
+    stackUsed: [
+      "GraphQL",
+      "React-Relay",
+      "React-Query",
+      "React",
+      "MongoDB",
+      "NodeJS (Express)",
+      "Jenkins",
+    ],
+  },
+  {
+    _id: 1,
     name: "GUVI Geek Networks",
     img: "/assets/guvi.jpg",
     location: "Chennai",
@@ -73,7 +119,7 @@ export const companies = [
       "Interviews, Applications and Requirements",
       "Admin Dashboard",
       "Bulk Mailer",
-      "All Students data in Excel Report"
+      "All Students data in Excel Report",
     ],
 
     stackUsed: [

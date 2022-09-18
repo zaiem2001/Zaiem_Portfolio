@@ -15,12 +15,13 @@
 }
 
 .company {
+  width: 80%;
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid #6c63ff;
   border-top: 1px solid #6c63ff;
   padding: 20px;
-  margin-bottom: 12px;
+  margin: 12px 0;
   /* border-radius: 10px; */
 }
 
@@ -45,6 +46,10 @@ a {
 .img-container {
   width: 150px;
   margin-right: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .img-container img {
@@ -60,7 +65,7 @@ a {
 .line {
   width: 100%;
   height: 1px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.2);
   margin-bottom: 15px;
 }
 
@@ -71,6 +76,12 @@ a {
 
 .company-bottom div {
   margin-bottom: 15px;
+  display: flex;
+}
+
+.key {
+  width: 170px;
+  color: #6c63ff;
 }
 
 .value {
@@ -78,10 +89,6 @@ a {
   font-size: 18px;
   letter-spacing: 1px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.key {
-  color: #6c63ff;
 }
 
 .stack-container {
@@ -139,19 +146,6 @@ a {
   margin-bottom: 2px;
 }
 
-.modal-header {
-  position: relative;
-  /* padding: 10px; */
-}
-
-.modal-close {
-  /* flex: 1; */
-  position: absolute;
-  right: 10px;
-}
-
-.modal-title {
-  flex: 12;
-  text-align: center;
-  color: #0f3460;
+.company-desc {
+  padding: 5px 0;
 }
