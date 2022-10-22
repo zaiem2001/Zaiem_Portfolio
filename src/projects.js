@@ -63,10 +63,10 @@ const projects = [
 export const companies = [
   {
     _id: 2,
-    name: "Adrixus Tech Pvt Ltd",
-    img: "/assets/Adrixus.png",
+    name: "Spreadd",
+    img: "/assets/spreadd-logo.jpg",
     location: "Vadodara",
-    description: `Adrixus Tech Pvt Ltd is a leading IT company and giving varous services to the clients. For example, Web development, Blockchain development, Mobile development, etc. We have a team of highly skilled and experienced IT professionals who are dedicated to providing the best IT solutions to our clients.`,
+    description: `Spreadd is a SaaS-based AdTech platform that allows you to carry out marketing campaigns, check content analytics and carry out advanced audience targeting, Our primary focus is on building a feasible, fast yet secure platform that makes marketing more transparent and ethical for all. A platform for the creators, influencers, brands who are looking for effective digital marketing campaigns that are backed by data. Currently, we don't have a system that provides customised, fast, transparent and detailed analytical informative platforms - Spreadd wants to make a difference here!`,
     website: "https://spreadd.io",
     role: "MERN Stack Developer",
     startDate: "07-01-2022", //mm-dd-yyyy
