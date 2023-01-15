@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 import { useLocation } from "react-router";
 
 import { Link } from "react-router-dom";
-import Resume from "../Zaiem_R_Upadted.pdf";
+import Resume from "../ZaiemResume.pdf";
 
 import "./header.css";
 
@@ -14,7 +14,6 @@ const Header = () => {
   const initialWidth = window.innerWidth;
 
   const [width, setWidth] = useState(initialWidth);
-  // console.log(width);
 
   const location = useLocation();
 
