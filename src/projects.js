@@ -70,9 +70,10 @@ export const companies = [
     website: "https://spreadd.io",
     role: "MERN Stack Developer",
     startDate: "07-01-2022", //mm-dd-yyyy
-    endDate: "",
-    workDesc: `Working on some client's projects, then started working on the company's main website. 
-    Worked with Apollo and graphQL with microservices, react-relay and added many use-cases.
+    endDate: "11-30-2022",
+    workDesc: `Worked on GraphQL, Apollo-server, React-relay, MERN stack and other
+    libraries. Worked on different microservices. Studied Meta developers API and integrated WhatsApp into the webapp, where, admin can perform many actions through WhatsApp. 
+    Worked on campaign statistics design and integration on creator side as well as brand side, where they can see their due payments, milestones, goals to acheive etc. Worked on Redesigning whole campaign creation flow. Worked on UI, backend as well as on integration. Created Referral programme UI for creators.
                `,
 
     usecases: [
