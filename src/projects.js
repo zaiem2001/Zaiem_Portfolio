@@ -24,7 +24,7 @@ const projects = [
       "/assets/projects/login.png",
       "/assets/projects/comments.png",
     ],
-    link: "https://zaiem-social.herokuapp.com/",
+    link: "https://zsocialapp.onrender.com/",
     git: "https://github.com/zaiem2001/social-media-app",
   },
   {
