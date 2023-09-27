@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 import { useLocation } from "react-router";
 
 import { Link } from "react-router-dom";
-import Resume from "../ZaiemResume.pdf";
+import Resume from "../Zaiem_Resume.pdf";
 
 import "./header.css";
 
