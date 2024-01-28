@@ -31,6 +31,16 @@ const skills = [
     img: "/assets/Zaiem-portfolio/typescript.png",
   },
   {
+    id: "angular",
+    title: "Angular",
+    img: "/assets/Zaiem-portfolio/angular.png",
+  },
+  {
+    id: "spring",
+    title: "Spring",
+    img: "/assets/Zaiem-portfolio/springio-icon.svg",
+  },
+  {
     id: "s4",
     title: "git hub",
     img: "/assets/Zaiem-portfolio/github.png",

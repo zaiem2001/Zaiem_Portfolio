@@ -6,12 +6,12 @@ import "./contactSection.css";
 import ScrollBar from "./ScrollBar";
 
 const links = [
-  {
-    id: "l1",
-    title: "insta",
-    href: "https://www.instagram.com/zai3m/",
-    img: "/assets/Zaiem-portfolio/instagram.png",
-  },
+  // {
+  //   id: "l1",
+  //   title: "insta",
+  //   href: "https://www.instagram.com/zai3m/",
+  //   img: "/assets/Zaiem-portfolio/instagram.png",
+  // },
   {
     id: "l2",
     title: "github",
