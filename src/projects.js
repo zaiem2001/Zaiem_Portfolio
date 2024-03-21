@@ -69,8 +69,8 @@ export const companies = [
     description: `Spreadd is a SaaS-based AdTech platform that allows you to carry out marketing campaigns, check content analytics and carry out advanced audience targeting, Our primary focus is on building a feasible, fast yet secure platform that makes marketing more transparent and ethical for all. A platform for the creators, influencers, brands who are looking for effective digital marketing campaigns that are backed by data. Currently, we don't have a system that provides customised, fast, transparent and detailed analytical informative platforms - Spreadd wants to make a difference here!`,
     website: "https://spreadd.io",
     role: "MERN Stack Developer",
-    startDate: "07-01-2022", //mm-dd-yyyy
-    endDate: "11-30-2022",
+    startDate: "05-01-2022", //mm-dd-yyyy
+    endDate: "01-01-2023",
     workDesc: `Worked on GraphQL, Apollo-server, React-relay, MERN stack and other
     libraries. Worked on different microservices. Studied Meta developers API and integrated WhatsApp into the webapp, where, admin can perform many actions through WhatsApp. 
     Worked on campaign statistics design and integration on creator side as well as brand side, where they can see their due payments, milestones, goals to acheive etc. Worked on Redesigning whole campaign creation flow. Worked on UI, backend as well as on integration. Created Referral programme UI for creators.
@@ -102,7 +102,7 @@ export const companies = [
     What sets us apart is the fact that we offer online learning in a plethora of different vernacular languages along with English. With more than 1.8 lakh users currently learning from our platform, GUVI continues to grow at a tremendous rate. Visit www.guvi.in now.`,
     website: "https://www.guvi.in/",
     role: "Software Developer Intern",
-    startDate: "01-03-2022",
+    startDate: "08-01-2021",
     endDate: "04-03-2022",
     workDesc: `Implemented Various use-cases for the company's main website,
                Worked on various events,
