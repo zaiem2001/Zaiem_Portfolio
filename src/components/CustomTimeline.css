@@ -84,3 +84,41 @@
   max-height: 300px;
   overflow: visible;
 }
+
+@media only screen and (max-width: 750px) {
+  .timeline-item {
+    padding: 0 3rem;
+  }
+
+  .company-name {
+    font-size: 12px;
+  }
+
+  .position {
+    font-size: 14px;
+  }
+
+  .company-logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .dotContainer {
+    font-size: 12px;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .timeline-item ul {
+    font-size: 12px;
+    /* all: unset; */
+  }
+
+  .timeline-item:hover ul {
+    max-height: 900px;
+    overflow: visible;
+  }
+
+  .timeline-item li {
+    text-align: start;
+  }
+}
