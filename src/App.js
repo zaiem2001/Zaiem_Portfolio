@@ -1,10 +1,11 @@
 import { Route, Switch } from "react-router";
 
 import Header from "./components/Header";
-import Experience from "./pages/Experience";
-import ExperienceDetails from "./pages/ExperienceDetails";
+// import Experience from "./pages/Experience";
+// import ExperienceDetails from "./pages/ExperienceDetails";
 import HomePage from "./pages/HomePage";
 import ProjectPage from "./pages/ProjectsPage";
+import ExperienceT from "./pages/ExperienceT";
 
 function App() {
   return (
@@ -15,8 +16,8 @@ function App() {
         <Route path="/" exact component={HomePage} />
         <Route path="/projects" component={ProjectPage} />
 
-        <Route path="/experience/:companyName" component={ExperienceDetails} />
-        <Route path="/experience" component={Experience} />
+        <Route path="/experience" component={ExperienceT} />
+        {/* <Route path="/experience/:companyName" component={ExperienceDetails} /> */}
       </Switch>
     </main>
   );

@@ -62,6 +62,36 @@ const projects = [
 
 export const companies = [
   {
+    _id: 3,
+    name: "Carleton University",
+    img: "/assets/carleton_university_logo.jpeg",
+    location: "Vadodara",
+    description: ``,
+    website: "https://carleton.ca/",
+    role: "Full Stack Developmemt: Course Instructor",
+    startDate: "04-01-2024", //mm-dd-yyyy
+    endDate: "",
+    range: "2024-Present",
+    workDescription: [
+      "Led a Full Stack Development course for 30 students, focusing on HTML, CSS, JavaScript, and frontend development with React.",
+      "Taught students how to deploy static websites on GitHub and Netlify, emphasizing industry-standard deployment practices.",
+      "Covered RESTful APIs using backend development using NodeJS and Express.",
+      "Guided students through creating three React projects, providing hands-on experience in project development and deployment on GitHub and Netlify.",
+    ],
+
+    usecases: ["JavaScript", "React", "NodeJS", "APIs", "HTML/CSS"],
+
+    stackUsed: [
+      "GraphQL",
+      "React-Relay",
+      "React-Query",
+      "React",
+      "MongoDB",
+      "NodeJS (Express)",
+      "Jenkins",
+    ],
+  },
+  {
     _id: 2,
     name: "Spreadd",
     img: "/assets/spreadd-logo.jpg",
@@ -71,11 +101,17 @@ export const companies = [
     role: "MERN Stack Developer",
     startDate: "05-01-2022", //mm-dd-yyyy
     endDate: "01-01-2023",
+    range: "2022-2023",
     workDesc: `Worked on GraphQL, Apollo-server, React-relay, MERN stack and other
     libraries. Worked on different microservices. Studied Meta developers API and integrated WhatsApp into the webapp, where, admin can perform many actions through WhatsApp. 
     Worked on campaign statistics design and integration on creator side as well as brand side, where they can see their due payments, milestones, goals to acheive etc. Worked on Redesigning whole campaign creation flow. Worked on UI, backend as well as on integration. Created Referral programme UI for creators.
                `,
-
+    workDescription: [
+      "Streamlined communication and registration processes by integrating WhatsApp Business with webhooks, resulting in a 10% increase in user engagement.",
+      "Implemented optimization strategies for GraphQL queries with react-relay fragments, simultaneously restructuring the backend GraphQL schema for Microservices. These initiatives resulted in a notable 20% increase in website speed, reduced unnecessary updates, enhanced data storage efficiency, and ensured consistency across the system.",
+      "Developed RazorPayX SDK for cryptocurrency payments within the RazorPay ecosystem.",
+      "Achieved more than 95% test coverage by writing unit tests for backend microservices, supporting Test-Driven Development",
+    ],
     usecases: [
       "Apollo Federation",
       "Upgraded whole backend schema",
@@ -101,9 +137,10 @@ export const companies = [
     description: `GUVI (Grab Your Vernacular Imprint) Geek Network Private Limited is an Online Learning Platform incubated by IITM and IIM-A, supported by Google Launchpad & Jio Gennext.
     What sets us apart is the fact that we offer online learning in a plethora of different vernacular languages along with English. With more than 1.8 lakh users currently learning from our platform, GUVI continues to grow at a tremendous rate. Visit www.guvi.in now.`,
     website: "https://www.guvi.in/",
-    role: "Software Developer Intern",
+    role: "Software Developer",
     startDate: "08-01-2021",
     endDate: "04-03-2022",
+    range: "2021-2022",
     workDesc: `Implemented Various use-cases for the company's main website,
                Worked on various events,
                Solved student queries in MERN Stack,
@@ -131,6 +168,13 @@ export const companies = [
       "AWS",
       "SocketIO",
       "Github",
+    ],
+
+    workDescription: [
+      "Implemented automated solutions for administrative tasks, including daily email automation and batch histories leading to a 25% increase in operational efficiency.",
+      "led the development and deployment of several features for more than 3,000 enrolled students, working closely with the design team to ensure they fulfilled user requirements and preferences.",
+      "Independently developed use cases addressing organizational needs, including Hackathon, Capstone, Mock-Interview, Cron-Job automation and more. These features significantly contributed to enhancing team productivity, increased administrative control, and expanded data insights, improving overall platform functionality and efficiency.",
+      "Acted as an effective mentor, providing comprehensive instruction on MERN stack concepts and web development to students, earning a top-rated, 5-star mentor status.",
     ],
   },
 ];
