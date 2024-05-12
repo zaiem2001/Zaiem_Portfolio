@@ -1,11 +1,12 @@
 .experience {
   width: 100vw;
   position: relative;
-  top: 90px;
+  top: 130px;
   padding: 20px;
   color: #6c63ff;
 }
 
+/*
 .experience-wrapper {
   width: 100%;
   padding: 10px;
@@ -22,7 +23,7 @@
   border-top: 1px solid #6c63ff;
   padding: 20px;
   margin: 12px 0;
-  /* border-radius: 10px; */
+  /* border-radius: 10px; 
 }
 
 .company-top {
@@ -148,4 +149,5 @@ a {
 
 .company-desc {
   padding: 5px 0;
-}
+} 
+*/
