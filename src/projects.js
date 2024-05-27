@@ -65,13 +65,13 @@ export const companies = [
     _id: 3,
     name: "Carleton University",
     img: "/assets/carleton_university_logo.jpeg",
-    location: "Vadodara",
+    location: "Ottawa",
     description: ``,
     website: "https://carleton.ca/",
     role: "Full Stack Developmemt: Course Instructor",
-    startDate: "04-01-2024", //mm-dd-yyyy
-    endDate: "",
-    range: "2024-Present",
+    startDate: "09-01-2023", //mm-dd-yyyy
+    endDate: "05-10-2024",
+    range: "2023-2024",
     workDescription: [
       "Led a Full Stack Development course for 30 students, focusing on HTML, CSS, JavaScript, and frontend development with React.",
       "Taught students how to deploy static websites on GitHub and Netlify, emphasizing industry-standard deployment practices.",
@@ -98,7 +98,7 @@ export const companies = [
     location: "Vadodara",
     description: `Spreadd is a SaaS-based AdTech platform that allows you to carry out marketing campaigns, check content analytics and carry out advanced audience targeting, Our primary focus is on building a feasible, fast yet secure platform that makes marketing more transparent and ethical for all. A platform for the creators, influencers, brands who are looking for effective digital marketing campaigns that are backed by data. Currently, we don't have a system that provides customised, fast, transparent and detailed analytical informative platforms - Spreadd wants to make a difference here!`,
     website: "https://spreadd.io",
-    role: "MERN Stack Developer",
+    role: "Full Stack Developer",
     startDate: "05-01-2022", //mm-dd-yyyy
     endDate: "01-01-2023",
     range: "2022-2023",
